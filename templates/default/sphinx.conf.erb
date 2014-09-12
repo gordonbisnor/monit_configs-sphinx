@@ -1,0 +1,5 @@
+# Monitoring Sphinx Service
+
+check process searchd with pidfile /var/run/sphinx/sphinx.pid
+  start program = "/etc/init.d/searchd start"
+  stop program = "/etc/init.d/searchd stop"
